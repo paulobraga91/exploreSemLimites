@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+--fc-title:#B52184;
+--fc-text:#312D64;
+--fc-footer: #FFF;
+font-size: 62.5%;
+
+}
+
+body{
+    font-family: Mulish;
+    font-style: normal;
+}
+.content{
+    margin: 0 auto;
+    width: 430px ;
+}
+
+.textHeader P{
+    color: var(--fc-text);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.textHeader h3{
+color: var(--fc-title);
+text-align: center;
+font-family: Mulish;
+font-size: 3.2rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.imgSeta{
+    margin: 3.5rem auto 9rem auto;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.posts{
+background: linear-gradient(134deg, #343193 0%, #302C63 100%);
+display: flex;
+flex-direction: column;
+gap: 3.3rem;
+padding: 3.3rem;
+}
+
+.post{
+padding: 2.6rem;
+border-radius: 19.865px;
+background: #FFF;
+box-shadow: 0px 3.3107693195343018px 13.243077278137207px 0px rgba(0, 0, 0, 0.25);
+}
+
+.post p{
+color: var(--fc-text);
+font-size: 1.6rem;
+font-weight: 600;
+line-height: normal;
+}
+
+.post h3{
+color: var(--fc-title);
+font-size: 2.9rem;
+font-weight: 900;
+line-height: normal;
+}
+
+.contato{
+display: flex;
+flex-direction: column;
+gap: 3rem;
+padding: 3rem;
+}
+
+.contato input{
+padding:1.2rem 3rem;
+border-radius: 16px;
+border: 2px solid #312D64;
+}
+
+#inputText{
+    height: 10rem;
+}
+
+.contato h3{
+color: var(--fc-title);
+font-size: 2.9rem;
+font-weight: 900;
+line-height: normal;
+}
+
+
+
+#button{
+    display: inline;
+    height: 4.5rem;
+    width: 15rem;
+    border-radius: 1.6rem;
+    background: linear-gradient(134deg, #343193 0%, #302C63 100%);
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem; 
+    color: var(--fc-footer);
+}
+
+#name{
+    background-image:url(img/person.svg);
+    background-position: 5%;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#name::placeholder{
+  
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--fc-text);
+}
+
+.contato input::placeholder{
+    color: var(--fc-text);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 5rem;
+    line-height: 100%;
+}
+
+#email{
+    background-position: 5%;
+    background-image: url(img/at.svg);
+    background-repeat: no-repeat;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer{
+    display: flex;
+   height: 6.8rem;
+   background-color: var(--fc-text);
+   font-weight: 600;   
+   color: var(--fc-footer);
+   text-align: center;
+   font-size: 1.9rem;
+   padding: 1.6rem;
+   justify-content: center;
+   align-items: center;
+}
